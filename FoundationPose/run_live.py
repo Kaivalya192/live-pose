@@ -116,7 +116,7 @@ try:
         logging.info(f'i:{i}')
         
         
-        H, W = cv2.imread("mask.png").shape[:2]
+        H, W = cv2.resize(color_image, (640,480)).shape[:2]
         color = cv2.resize(color_image, (W,H), interpolation=cv2.INTER_NEAREST)
         depth = cv2.resize(depth_image_scaled, (W,H), interpolation=cv2.INTER_NEAREST)
         
