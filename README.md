@@ -48,7 +48,7 @@ Intel RealSense Depth Camera compatible Python package for live 6 DOF pose estim
     note: To run on windows install `Cygwin` and execute `./run_live.sh`
    
 3. **Locate the .obj file**:
-    <br> Note: For novle object you can use [Object Recustruction Framework](https://github.com/Kaivalya192/Object_Reconstruction) </br>
+    <br> Note: For novel object you can use [Object Recustruction Framework](https://github.com/Kaivalya192/Object_Reconstruction) </br>
     
 4. **Masking**:
     <br> here select the Boundry points of object in first frame </br>
