@@ -37,6 +37,7 @@ Intel RealSense Depth Camera compatible Python package for live 6 DOF pose estim
     ```sh
     bash docker/run_container.sh
     ```
+    note: To run on windows install `Cygwin` and execute `./docker/run_container.sh`
 
 ### Running the Model
 
@@ -44,4 +45,5 @@ Intel RealSense Depth Camera compatible Python package for live 6 DOF pose estim
     ```sh
     bash run_live.sh
     ```
+    note: To run on windows install `Cygwin` and execute `./run_live.sh`
 
