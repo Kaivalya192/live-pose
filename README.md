@@ -38,7 +38,12 @@ Intel RealSense Depth Camera compatible Python package for live 6 DOF pose estim
     bash docker/run_container.sh
     ```
     note: To run on windows install `Cygwin` and execute `./docker/run_container_win.sh`
+### Building packages
 
+1. **Build**:
+    ```sh
+    CMAKE_PREFIX_PATH=$CONDA_PREFIX/lib/python3.9/site-packages/pybind11/share/cmake/pybind11 bash build.bash
+    ```
 ### Running the Model
 
 1. **Run the live pose estimation**:
