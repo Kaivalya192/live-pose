@@ -3,6 +3,8 @@
 Intel RealSense Depth Camera compatible Python package for live 6 DOF pose estimation.
 <br>
 For Jetson device use [Jetpose](https://github.com/Kaivalya192/Jetpose).
+<br>
+For Basic Ros2 Intigration [live-pose-ros](https://github.com/Kaivalya192/live-pose-ros).
 
 ## Table of Contents
 
